@@ -1,0 +1,6 @@
+---
+applications:
+- name: time-shift-demo
+  memory: 4G
+  path: target/time-shift-demo-3-0.0.1-SNAPSHOT.jar
+
