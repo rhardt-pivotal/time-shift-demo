@@ -1,0 +1,3 @@
+buildpacks:
+  - https://github.com/rhardt-pivotal/tsx-buildpack
+  - https://github.com/rhardt-pivotal/java-buildpack
