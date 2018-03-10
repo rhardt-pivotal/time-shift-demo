@@ -30,26 +30,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<artifactId>maven-antrun-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>addMBPAtRootLevel</id>
-						<phase>package</phase>
-						<configuration>
-							<target>
-								<zip destfile="${project.build.directory}/${project.artifactId}-${project.version}.jar"
-									 update="yes" compress="false" >
-									<zipfileset dir="." includes="multi-buildpack.yml" />
-								</zip>
-							</target>
-						</configuration>
-						<goals>
-							<goal>run</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin> 
 		</plugins>
 	</build>
 

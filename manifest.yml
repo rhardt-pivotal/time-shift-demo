@@ -1,9 +1,0 @@
----
-applications:
-- name: time-shift-demo-5
-  buildpack: https://github.com/rhardt-pivotal/multi-buildpack
-  memory: 2G
-  path: target/time-shift-demo-3-0.0.1-SNAPSHOT.jar
-  env:
-    TSX_TAR_URI: <URI>
-    TSX_ARGS: "set -y -2"
